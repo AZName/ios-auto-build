@@ -19,6 +19,6 @@ platform :ios do
   desc "Description of what the lane does"
   lane :beta do
   build_app(export_method: "ad-hoc")
-#  pgyer(api_key: "df6230c959a2173e33592c88606459aa", user_key: "494d7ee72424cfc6ec64248ca110d208")
+  pgyer(api_key: "df6230c959a2173e33592c88606459aa", user_key: "494d7ee72424cfc6ec64248ca110d208")
   end
 end
